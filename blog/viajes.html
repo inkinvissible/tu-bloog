@@ -1,0 +1,238 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- SEO -->
+    <!-- KeyWords -->
+    <meta name="keywords" content="viajes, bora bora, miami">
+    <!-- Título -->
+    <title>Tu Bloog | Lo mejor de los viajes</title>
+    <!-- Descripción -->
+    <meta name="description" content="Te traemos las más recientes novedades y recomendaciones en viajes.">
+    <meta name="copyright" content="Tu Bloog">
+    <meta name="author" content="Tu Bloog">
+    <meta name="robots" content="index, follow">
+
+    <script src="https://cdn.tailwindcss.com"></script>
+    <script>
+        tailwind.config = {
+            theme: {
+                extend: {
+                    colors: {
+                        clifford: '#da373d',
+                    }
+                }
+            }
+        }
+    </script>
+    <link rel="stylesheet" href="../css/estilos.css">
+</head>
+<body>
+    <header class="header-2">
+        <nav class="bg-white py-2 md:py-4">
+            <div class="container px-4 mx-auto md:flex md:items-center">
+
+                <div class="flex justify-between items-center">
+                    <a href="../index.html" class="font-bold text-xl text-indigo-600"><img
+                            src="../imagenes/logo-viajes.png" alt="Logo Tu Bloog" class="w-24"></a>
+                    <button
+                        class="border border-solid border-gray-600 px-3 py-1 rounded text-gray-600 opacity-50 hover:opacity-75 md:hidden"
+                        id="navbar-toggle">
+                        <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor"
+                            class="bi bi-list" viewBox="0 0 16 16">
+                            <path fill-rule="evenodd"
+                                d="M2.5 12a.5.5 0 0 1 .5-.5h10a.5.5 0 0 1 0 1H3a.5.5 0 0 1-.5-.5zm0-4a.5.5 0 0 1 .5-.5h10a.5.5 0 0 1 0 1H3a.5.5 0 0 1-.5-.5zm0-4a.5.5 0 0 1 .5-.5h10a.5.5 0 0 1 0 1H3a.5.5 0 0 1-.5-.5z" />
+                        </svg>
+                    </button>
+                </div>
+
+                <div class="hidden md:flex flex-col md:flex-row md:ml-auto mt-3 md:mt-0" id="navbar-collapse">
+                    <a href="tecnologia.html"
+                        class="p-2 lg:px-4 md:mx-2 text-gray-600 rounded hover:bg-gray-200 hover:text-gray-700 transition-colors duration-300">Tecnología</a>
+                    <a href="automovilismo.html"
+                        class="p-2 lg:px-4 md:mx-2 text-gray-600 rounded hover:bg-gray-200 hover:text-gray-700 transition-colors duration-300">Automovilismo</a>
+                    <a href="inversiones.html"
+                        class="p-2 lg:px-4 md:mx-2 text-gray-600 rounded hover:bg-gray-200 hover:text-gray-700 transition-colors duration-300">Inversiones</a>
+                    <a href="viajes.html"
+                        class="p-2 lg:px-4 md:mx-2 text-white rounded bg-teal-500 hover:text-gray-700 transition-colors duration-300">Viajes</a>
+                    <a href="innovacion.html"
+                        class="p-2 lg:px-4 md:mx-2 text-gray-600 rounded hover:bg-gray-200 hover:text-gray-700 transition-colors duration-300">Innovación</a>
+
+                </div>
+            </div>
+        </nav>
+    </header>
+
+    <main>
+        <h1 class="hidden">Tu Blog de viajes. Tu Blog</h1>
+
+        <section class="bg-teal-500">
+            <article class="container px-4 py-6 flex flex-col md:flex-row justify-between mx-auto">
+
+                <img src="https://imgcy.trivago.com/c_limit,d_dummy.jpeg,f_auto,h_1300,q_auto,w_2000/itemimages/16/38/163813_v3.jpeg" class="w-7/12 mr-10"
+                    alt="Bora Bora">
+                <div class="flex flex-col lg:justify-center">
+                    <div>
+                        <p class="text-sm text-white">ARTÍCULO DESTACADO</p>
+                        <hr>
+                    </div>
+                    <h2 class="text-2xl text-white">Bora Bora, ¿vale la pena?</h2>
+                    <p class="text-white"> Seguro que hemos visto imágenes o videos de estas islas hermosas que tienen cabañas en el
+                        mar, pero... ¿Vale la pena viajar a Bora Bora?</p>
+                    <br>
+                    <a href="./articulos/bora-bora.html"
+                        class="p-2 text-bold bg-teal-500 text-white text-center rounded shadow-md px-4 mt-2">Leer
+                        más</a>
+
+                </div>
+
+
+            </article>
+        </section>
+
+        <section class="px-4">
+           
+
+            <div class="p-4 grid grid-cols-1 sm:grid-cols-1 md:grid-cols-3 lg:grid-cols-3 xl:grid-cols-3 gap-5">
+                <!--Card 1-->
+                <div class="rounded overflow-hidden shadow-lg">
+                    <img class="w-full"
+                        src="https://imgcy.trivago.com/c_limit,d_dummy.jpeg,f_auto,h_1300,q_auto,w_2000/itemimages/16/38/163813_v3.jpeg"
+                        alt="Bora Bora">
+                    <div class="px-4 py-4">
+                        <div class="font-bold text-xl mb-2">
+                            <h3>Bora Bora, ¿vale la pena?</h3>
+                        </div>
+                        <p class="text-gray-700 text-base">
+                            Seguro que hemos visto imágenes o videos de estas islas hermosas que tienen cabañas en el
+                            mar, pero... ¿Vale la pena viajar a Bora Bora?
+                        </p>
+                        <br>
+                        <a href="blog/articulos/bora-bora.html"
+                            class="p-2 text-bold bg-teal-500 text-white text-center rounded shadow-md px-4 mt-2">Leer
+                            más</a>
+                    </div>
+                    <div class="px-4 pt-4 pb-2">
+                        <span
+                            class="inline-block bg-gray-200 rounded-full px-3 py-1 text-sm font-semibold text-gray-700 mr-2 mb-2">#viajes</span>
+                        <span
+                            class="inline-block bg-gray-200 rounded-full px-3 py-1 text-sm font-semibold text-gray-700 mr-2 mb-2">#bora
+                            bora</span>
+                        <span
+                            class="inline-block bg-gray-200 rounded-full px-3 py-1 text-sm font-semibold text-gray-700 mr-2 mb-2">#polinesia
+                            francesa</span>
+                    </div>
+                </div>
+                <!--Card 2-->
+                <div class="rounded overflow-hidden shadow-lg">
+                    <img class="w-full"
+                        src="https://a.cdn-hotels.com/gdcs/production133/d1207/7ad2d7f0-68ce-11e8-8a0f-0242ac11000c.jpg"
+                        alt="Madrid">
+                    <div class="px-4 py-4">
+                        <div class="font-bold text-xl mb-2">
+                            <h3>Madrid: una de las mejores ciudades de España.</h3>
+                        </div>
+                        <p class="text-gray-700 text-base">
+                            Madrid es una ciudad cosmopolita que nunca descansa. Llena de museos, arquitectura y una
+                            exquisita comida. Si quieres saber más sobre esta bella ciudad, puedes leer el artículo.
+                        </p>
+                        <br>
+                        <a href="blog/articulos/madrid-mejores-ciudades-espana.html"
+                            class="p-2 text-bold bg-teal-500 text-white text-center rounded shadow-md px-4 mt-2">Leer
+                            más</a>
+                    </div>
+                    <div class="px-4 pt-4 pb-2">
+                        <span
+                            class="inline-block bg-gray-200 rounded-full px-3 py-1 text-sm font-semibold text-gray-700 mr-2 mb-2">#viajes</span>
+                        <span
+                            class="inline-block bg-gray-200 rounded-full px-3 py-1 text-sm font-semibold text-gray-700 mr-2 mb-2">#madrid</span>
+                        <span
+                            class="inline-block bg-gray-200 rounded-full px-3 py-1 text-sm font-semibold text-gray-700 mr-2 mb-2">#españa</span>
+                    </div>
+                </div>
+
+                <!--Card 3-->
+                <div class="rounded overflow-hidden shadow-lg">
+                    <img class="w-full" src="https://www.cronista.com/files/image/401/401115/618bd34cdeec4.jpg"
+                        alt="Miami Beach">
+                    <div class="px-4 py-4">
+                        <div class="font-bold text-xl mb-2">
+                            <h3>Miami: ¿vale la pena? ¿Sigue siendo barato?</h3>
+                        </div>
+                        <p class="text-gray-700 text-base">
+                            Hace unos años, Miami era conocido por ser muy barato en cuanto a compras de ropa,
+                            tecnología, pequeños electrodomésticos y algunas cosas más se refiere. ¿Pero sigue sienda
+                            barato? En este artículo lo descubriremos.
+                        </p>
+                        <br>
+                        <a href="blog/articulos/miami-vale-la-pena.html"
+                            class="p-2 text-bold bg-teal-500 text-white text-center rounded shadow-md px-4 mt-2">Leer
+                            más</a>
+
+                    </div>
+                    <div class="px-4 pt-4 pb-2">
+                        <span
+                            class="inline-block bg-gray-200 rounded-full px-3 py-1 text-sm font-semibold text-gray-700 mr-2 mb-2">#viajes</span>
+                        <span
+                            class="inline-block bg-gray-200 rounded-full px-3 py-1 text-sm font-semibold text-gray-700 mr-2 mb-2">#miami</span>
+                        <span
+                            class="inline-block bg-gray-200 rounded-full px-3 py-1 text-sm font-semibold text-gray-700 mr-2 mb-2">#EEUU</span>
+                    </div>
+                </div>
+            </div>
+            </div>
+        </section>
+    </main>
+
+    <footer class="text-center !text-white">
+        <div class="container mx-auto pt-9">
+          <div class="flex flex-row  justify-center mb-9">
+            <a href="#!" class="mr-9 text-gray-800">
+              <svg
+                aria-hidden="true"
+                focusable="false"
+                data-prefix="fab"
+                data-icon="facebook-f"
+                class="svg-inline--fa fa-facebook-f w-2.5"
+                role="img"
+                xmlns="http://www.w3.org/2000/svg"
+                viewBox="0 0 320 512"
+              >
+                <path
+                  fill="currentColor"
+                  d="M279.14 288l14.22-92.66h-88.91v-60.13c0-25.35 12.42-50.06 52.24-50.06h40.42V6.26S260.43 0 225.36 0c-73.22 0-121.08 44.38-121.08 124.72v70.62H22.89V288h81.39v224h100.17V288z"
+                ></path>
+              </svg>
+            </a>
+            
+            <a href="https://instagram.com/tu-bloog" class="mr-9 text-gray-800">
+              <svg
+                aria-hidden="true"
+                focusable="false"
+                data-prefix="fab"
+                data-icon="instagram"
+                class="svg-inline--fa fa-instagram w-3.5"
+                role="img"
+                xmlns="http://www.w3.org/2000/svg"
+                viewBox="0 0 448 512"
+              >
+                <path
+                  fill="currentColor"
+                  d="M224.1 141c-63.6 0-114.9 51.3-114.9 114.9s51.3 114.9 114.9 114.9S339 319.5 339 255.9 287.7 141 224.1 141zm0 189.6c-41.1 0-74.7-33.5-74.7-74.7s33.5-74.7 74.7-74.7 74.7 33.5 74.7 74.7-33.6 74.7-74.7 74.7zm146.4-194.3c0 14.9-12 26.8-26.8 26.8-14.9 0-26.8-12-26.8-26.8s12-26.8 26.8-26.8 26.8 12 26.8 26.8zm76.1 27.2c-1.7-35.9-9.9-67.7-36.2-93.9-26.2-26.2-58-34.4-93.9-36.2-37-2.1-147.9-2.1-184.9 0-35.8 1.7-67.6 9.9-93.9 36.1s-34.4 58-36.2 93.9c-2.1 37-2.1 147.9 0 184.9 1.7 35.9 9.9 67.7 36.2 93.9s58 34.4 93.9 36.2c37 2.1 147.9 2.1 184.9 0 35.9-1.7 67.7-9.9 93.9-36.2 26.2-26.2 34.4-58 36.2-93.9 2.1-37 2.1-147.8 0-184.8zM398.8 388c-7.8 19.6-22.9 34.7-42.6 42.6-29.5 11.7-99.5 9-132.1 9s-102.7 2.6-132.1-9c-19.6-7.8-34.7-22.9-42.6-42.6-11.7-29.5-9-99.5-9-132.1s-2.6-102.7 9-132.1c7.8-19.6 22.9-34.7 42.6-42.6 29.5-11.7 99.5-9 132.1-9s102.7-2.6 132.1 9c19.6 7.8 34.7 22.9 42.6 42.6 11.7 29.5 9 99.5 9 132.1s2.7 102.7-9 132.1z"
+                ></path>
+              </svg>
+            </a>
+          </div>
+        </div>
+      
+        <div class="text-center text-gray-700 p-4" style="background-color: rgba(0, 0, 0, 0.2);">
+          © 2022 Copyright. Tu Bloog
+        </div>
+      </footer>
+    
+
+    <script src="../js/responsive.js"></script>
+</body>
+</html>
